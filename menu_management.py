@@ -11,13 +11,15 @@ def availability(list, elem):
     if elem in list:
         return True
 
-
 l = ["Pizza", "Burger", "Pasta", "Salad"]
 print("initial_menu =",l)
+
 add = input("add_item = ")
 add_item(l, add)
+
 remove = input("remove_item = ")
 remove_item(l, remove)
+
 check = input("check_item = ")
 print("updated menu = ", l)
 if availability(l, check):

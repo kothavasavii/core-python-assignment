@@ -12,5 +12,4 @@ def calculate_total_fare(trips):
     print(f"Total Fare: ${total_fare}")
 
 tips = [5, 10, 3]
-
 calculate_total_fare(tips)
